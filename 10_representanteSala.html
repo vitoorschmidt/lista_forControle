@@ -7,12 +7,21 @@
     Desenvolva um programa que armazene o voto de cada aluno da sala e apresente o resultado da votação, com o quantitativo de votos e também a porcentagem de votos de cada candidato a representante de sala.
     */
 
-    //ENTRADA
+    const candidato1 = prompt("Informe o nome do primeiro candidato:");
+    const candidato2 = prompt("Informe o nome do segundo candidato:");
+    const candidato3 = prompt("Informe o nome do terceiro candidato:");
+
+    const quantidadeVotantes = parseInt(prompt("Informe a quantidade de alunos votantes:"));
+
+    let votosCandidato1 = 0;
+    let votosCandidato2 = 0;
+    let votosCandidato3 = 0;
+
+    for (let i = 0; i < quantidadeVotantes; i++) {
+        const voto = parseInt(prompt(`Aluno ${i + 1}, escolha o seu candidato:\n1. ${candidato1}\n2. ${candidato2}\n3. ${candidato3}`))};
+
+    </script>
 
 
-    //PROCESSAMENTO
 
 
-    //SAÍDA
-
-</script>
